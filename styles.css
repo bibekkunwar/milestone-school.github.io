@@ -588,7 +588,7 @@ td {
 
 /* contact form page */
 #contact {
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: aliceblue;
     display: flex;
@@ -600,16 +600,16 @@ td {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0px 0px 20px #00000010;
     background-color: white;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .form-group {
     width: 100%;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .form-group input,
   .form-group textarea {
@@ -627,14 +627,14 @@ td {
     width: 100%;
     border: none;
     outline: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 24px;
     border-radius: 8px;
     font-family: "Montserrat";
     color: rgb(27, 166, 247);
     text-align: center;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 8px;
     transition: 0.3s ease background-color;
   }
   button[type="submit"]:hover {
@@ -672,3 +672,67 @@ td {
     }
   }
   
+
+
+
+
+
+
+  /* gallery section */
+
+  .gallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+  }
+.gallery-container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+  .gallery-container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #222;
+  }
+
+.gallery-container .heading h3 span{
+    font-weight: 100;
+}
+
+
+.gallery-container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.gallery-container .box .dream{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+
+.dream img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media(max-width:768px){
+    .gallery-container h3{
+        font-size: 20px !important;
+    }
+
+    .dream img{
+        height: 100px;
+        width: 100px;
+    }
+}
