@@ -9,9 +9,10 @@ html {
     font-weight: 600;
 }
 
-#logoimg{
+#logoimg {
     position: relative;
 }
+
 .navbar li a {
     color: white !important;
     padding-right: 20px;
@@ -54,10 +55,9 @@ html {
     margin-left: 0.3em;
     border-radius: 50px;
     pointer-events: none
-
 }
 
-#marquee-color{
+#marquee-color {
     font-size: 24px;
     font-family: inherit;
     font-weight: bold;
@@ -101,9 +101,11 @@ html {
         padding: 0;
     }
 }
-#carouselExampleControls{
+
+#carouselExampleControls {
     pointer-events: none;
 }
+
 .carousel-inner {
     height: auto;
     transition: 1s ease;
@@ -409,7 +411,7 @@ section .section-title {
 
 /*  facilities section*/
 
-#facilities{
+#facilities {
     margin: 3rem;
 }
 
@@ -481,14 +483,13 @@ td {
 }
 
 
-.bus-img img
-{
+.bus-img img {
     padding: 20px;
     cursor: pointer;
 }
 
-@media(max-width){
-    .bus-img img{
+@media(max-width) {
+    .bus-img img {
         padding: 0%;
     }
 }
@@ -501,21 +502,21 @@ td {
 /* prinicipal mesage  section */
 
 
-#principal-message{
+#principal-message {
     display: grid;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.principal-text{
+.principal-text {
     padding-top: 20%;
     padding-right: 60px;
 }
 
-.image-principal{
+.image-principal {
     text-align: center;
 }
 
-.image-principal img{
+.image-principal img {
     height: 400px;
     width: 400px;
     border-radius: 800px;
@@ -523,12 +524,12 @@ td {
 }
 
 
-@media(max-width:768px){
-    #principal-message{
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-       grid-template-rows: auto;
-       grid-row-start: auto;
+@media(max-width:768px) {
+    #principal-message {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-row-start: auto;
     }
 
     .principal-text {
@@ -543,17 +544,16 @@ td {
 /* stafff image section*/
 
 
-#founders
-{
+#founders {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     padding-left: 200px;
     margin-bottom: 10%;
 }
 
-@media(max-width:768px){
-    #founders{
+@media(max-width:768px) {
+    #founders {
         display: flex;
         flex-direction: row;
         padding: 0%;
@@ -562,19 +562,18 @@ td {
 }
 
 
-.staffs
-{
+.staffs {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
     row-gap: 20px;
     padding-left: 200px;
 }
 
-@media(max-width:768px){
-    .staffs{
+@media(max-width:768px) {
+    .staffs {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         padding-left: 15%;
     }
 }
@@ -595,8 +594,9 @@ td {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .contact-container {
+}
+
+.contact-container {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
@@ -605,25 +605,28 @@ td {
     background-color: white;
     border-radius: 8px;
     margin-bottom: 10px;
-  }
-  .form-group {
+}
+
+.form-group {
     width: 100%;
     margin-top: 20px;
     font-size: 16px;
-  }
-  .form-group input,
-  .form-group textarea {
+}
+
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 5px;
     font-size: 18px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
-  }
-  
-  textarea {
+}
+
+textarea {
     resize: vertical;
-  }
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     width: 100%;
     border: none;
     outline: none;
@@ -636,51 +639,58 @@ td {
     cursor: pointer;
     margin-top: 8px;
     transition: 0.3s ease background-color;
-  }
-  button[type="submit"]:hover {
+}
+
+button[type="submit"]:hover {
     background-color: rgb(214, 226, 236);
-  }
-  #status {
+}
+
+#status {
     width: 90%;
     max-width: 500px;
     text-align: center;
     padding: 10px;
     margin: 0 auto;
     border-radius: 8px;
-  }
-  #status.success {
+}
+
+#status.success {
     background-color: rgb(211, 250, 153);
     animation: status 4s ease forwards;
-  }
-  #status.error {
+}
+
+#status.error {
     background-color: rgb(250, 129, 92);
     color: white;
     animation: status 4s ease forwards;
-  }
-  @keyframes status {
+}
+
+@keyframes status {
     0% {
-      opacity: 1;
-      pointer-events: all;
+        opacity: 1;
+        pointer-events: all;
     }
+
     90% {
-      opacity: 1;
-      pointer-events: all;
+        opacity: 1;
+        pointer-events: all;
     }
+
     100% {
-      opacity: 0;
-      pointer-events: none;
+        opacity: 0;
+        pointer-events: none;
     }
-  }
-  
+}
 
 
 
 
 
 
-  /* gallery section */
 
-  .gallery-container{
+/* gallery section */
+
+.gallery-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -688,25 +698,26 @@ td {
     text-align: center;
     margin: 40px 20px 0 20px;
 
-  }
-.gallery-container .heading{
+}
+
+.gallery-container .heading {
     width: 50%;
     padding-bottom: 50px;
 }
 
-  .gallery-container .heading h3{
+.gallery-container .heading h3 {
     font-size: 3em;
     font-weight: bolder;
     padding-bottom: 10px;
     border-bottom: 2px solid #222;
-  }
+}
 
-.gallery-container .heading h3 span{
+.gallery-container .heading h3 span {
     font-weight: 100;
 }
 
 
-.gallery-container .box{
+.gallery-container .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -714,24 +725,24 @@ td {
 
 }
 
-.gallery-container .box .dream{
+.gallery-container .box .dream {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
 }
 
-.dream img{
+.dream img {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
 }
 
-@media(max-width:768px){
-    .gallery-container h3{
+@media(max-width:768px) {
+    .gallery-container h3 {
         font-size: 20px !important;
     }
 
-    .dream img{
+    .dream img {
         height: 100px;
         width: 100px;
     }
